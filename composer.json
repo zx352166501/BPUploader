@@ -3,6 +3,7 @@
     "description": "断点续传-后端实现，本地存储",
     "keywords": ["断点续传"],
     "homepage": "https://github.com/zx352166501/BPUploader.git",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "authors": [
