@@ -1,6 +1,6 @@
 {
     "name": "test_zx/breakpoint",
-    "description": "断点续传",
+    "description": "断点续传-后端实现，本地存储",
     "type": "library",
     "license": "MIT",
     "authors": [
