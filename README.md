@@ -23,7 +23,7 @@
     // 检查唯一标识
     $breakPointObj = new BPUploaderLocal();
     $breakPointObj ->chunkDir = __DIR__. '/../upload';
-    $breakPointObj ->upload($identifier,1,$testFile);
+    $breakPointObj ->upload($identifier,$chunkNumber,$testFile);
 ```
 
 ## 文件合并
@@ -36,7 +36,8 @@
 ```
 
 ## 备注
-- $identifier 文件32位唯一标识
+- identifier 文件32位唯一标识
+- chunkNumber 当前文件块序号
 - chunkDir 为临时切块存储路径
 - finalFileDir 为最终目录存储地址
 - check 为检查方法，返回已经存储的块序号烈豪
